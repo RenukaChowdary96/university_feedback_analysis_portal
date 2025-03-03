@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    background: url("mainpagelogo.jpeg") no-repeat center center/cover;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Container */
+.form-container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    color: #222; /* Dark text for visibility */
+}
+
+/* Labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #222; /* Darker text */
+}
+
+/* Select & Input Fields */
+select, input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.6); /* Lighter background */
+    color: #222; /* Dark text */
+    transition: all 0.3s ease;
+}
+
+/* Placeholder Text */
+select::placeholder, input::placeholder {
+    color: #555; /* Medium-dark text */
+}
+
+/* Focus Effect */
+select:focus, input:focus {
+    border: 2px solid #0072ff;
+    box-shadow: 0 0 10px rgba(0, 114, 255, 0.5);
+}
+
+/* Horizontal Group (Branch & Specialization) */
+.horizontal-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.horizontal-group select {
+    flex: 1;
+}
+
+/* Submit Button */
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(135deg, #0072ff, #00c6ff);
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+    .form-container {
+        max-width: 90%;
+    }
+
+    .horizontal-group {
+        flex-direction: column;
+    }
+}
+/* Logo Styling */
+.logo {
+    width: 120px; /* Adjust size */
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Headline */
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #222; /* Dark for better visibility */
+}

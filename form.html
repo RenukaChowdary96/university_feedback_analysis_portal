@@ -4,47 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback Form</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
 
-    <form id="feedbackForm" method="POST" action="store_stakeholder.php">
-        <label for="stakeholderType">Type of Stakeholder:</label>
-        <select name="stakeholderType" id="stakeholderType" required>
+    <div class="form-container">
+        <!-- Vignan Logo -->
+        <img src="logo.jpeg" alt="Vignan Logo" class="logo">
 
-            <option value="" disabled selected>Select the type</option>
-            <option value="Student">Student</option>
-            <option value="Faculty">Faculty</option>
-        </select>
+        <!-- Headline -->
+        <h2>Fill the Stakeholder Details in the Form </h2>
 
-        <label for="academic_year">Academic Year:</label>
-        <select name="academicYear" id="academic_year" required>
-            <option value="" disabled selected>Select the Academic Year</option>
-            <option value="2022-2023">2022-2023</option>
-            <option value="2023-2024">2023-2024</option>
-            <option value="2024-2025">2024-2025</option>
-        </select>
-
-        <div class="horizontal-group">
-            <select name="branch" id="branch" required>
-                <option value="" disabled selected>Select Branch</option>
-                <option value="B.Tech">B.Tech</option>
-                <option value="BCA">BCA</option>
-                <option value="BBA">BBA</option>
-                <option value="MCA">MCA</option>
-                <option value="MBA">MBA</option>
-                <option value="M.Tech">M.Tech</option>
+        <form id="feedbackForm" method="POST" action="store_stakeholder.php">
+            <label for="stakeholderType">Type of Stakeholder:</label>
+            <select name="stakeholderType" id="stakeholderType" required>
+                <option value="" disabled selected>Select the type</option>
+                <option value="Student">Student</option>
+                <option value="Faculty">Faculty</option>
             </select>
 
-            <select name="specialization" id="specialization">
-                <option value="" disabled selected>Select Specialization</option>
+            <label for="academic_year">Academic Year:</label>
+            <select name="academicYear" id="academic_year" required>
+                <option value="" disabled selected>Select the Academic Year</option>
+                <option value="2022-2023">2022-2023</option>
+                <option value="2023-2024">2023-2024</option>
+                <option value="2024-2025">2024-2025</option>
             </select>
-        </div>
 
-        <label for="feedback_date">Date of Feedback:</label>
-        <input type="date" id="feedback_date" name="feedbackDate" required>
+            <div class="horizontal-group">
+                <select name="branch" id="branch" required>
+                    <option value="" disabled selected>Select Branch</option>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="BCA">BCA</option>
+                    <option value="BBA">BBA</option>
+                    <option value="MCA">MCA</option>
+                    <option value="MBA">MBA</option>
+                    <option value="M.Tech">M.Tech</option>
+                </select>
 
-        <button type="submit">Set Location</button>
-    </form>
+                <select name="specialization" id="specialization">
+                    <option value="" disabled selected>Select Specialization</option>
+                </select>
+            </div>
+
+            <label for="feedback_date">Date of Feedback:</label>
+            <input type="date" id="feedback_date" name="feedbackDate" required>
+
+            <button type="submit">Set Location</button>
+        </form>
+    </div>
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
