@@ -161,3 +161,14 @@ main {
     background-color: #45a049;
 }
 
+
+.leaflet-popup-content-wrapper img {
+    width: 100%;  /* Adjust as needed */
+    height: 150px; /* Fixed height */
+    max-width: 300px;
+    object-fit: cover; /* Ensures the full image is visible */
+    border-radius: 5%;
+    display: block;
+    margin: 0 auto;
+}
+

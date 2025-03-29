@@ -4,7 +4,7 @@ const images = [
     { src: "library.jpeg.jpg", location: "Library" },
     { src: "medical facility.jpg", location: "Medical Facility" },
     { src: "parking.jpeg", location: "Parking Area" },
-    { src: "u block.jpg", location: "U Block" },
+    { src: "ucobank.jpg", location: "UCO bank" },
     { src: "ecell.jpg", location: "E-Cell" },
     { src: "boys hostel.png", location: "Boys Hostel" },
     { src: "mainpagelogo.jpeg", location: "A Block" },

@@ -68,10 +68,6 @@ h2 {
     display: flex;
     align-items: center;
     padding: 5px 0;
-}
-
-/* Custom border for radio/checkbox labels */
-.radio-group label {
     background-color: #ecf0f1;
     border-radius: 5px;
     padding: 8px 12px;

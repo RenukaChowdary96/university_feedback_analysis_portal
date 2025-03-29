@@ -22,7 +22,7 @@ const placeList = [
         "properties": {
             "name": "NTR Library",
             "info": "The artistically designed octagonal shaped library with more than 1,12,633 volumes, plenty of audio-visual materials & about 7009 National & International journals, is indeed a rich repository of knowledge facilitating prospects for future research.",
-            "url": "lib.jpeg",
+            "url": "library.jpeg.jpg",
             "address": "Beside A block",
             "formUrl": "http://localhost/feedback_analysis/feedback_library.html"
         }
@@ -36,7 +36,7 @@ const placeList = [
         "properties": {
             "name": "Girls hostel",
             "info": "We offer a wide range of accommodation that is conveniently located on campus. With more than 1500 beds available for girls. Each accommodation facility has its own management team to take care of your welfare.",
-            "url": "girlshostel.jpeg",
+            "url": "girls hostel.jpg",
             "address": "Near Vignan's Lara",
             "formUrl": "http://localhost/feedback_analysis/feedback_girls_hostel.html"
         }
@@ -50,7 +50,7 @@ const placeList = [
         "properties": {
             "name": "Ground",
             "info": "The open ground area used for various activities and events.",
-            "url": "ground.jpeg",
+            "url": "ground.jpg",
             "address": "Front of U block",
             "formUrl": "http://localhost/feedback_analysis/feedback_playground.html"
         }
@@ -64,7 +64,7 @@ const placeList = [
         "properties": {
             "name": "Boys hostel",
             "info": "We offer a wide range of accommodation that is conveniently located on campus. With more than 1500 beds available for boys. Each accommodation facility has its own management team to take care of your welfare.",
-            "url": "boyshostel.jpeg",
+            "url": "boys hostel.png",
             "address": "Near N block",
             "formUrl": "http://localhost/feedback_analysis/feedback_boys_hostel.html"
         }
@@ -78,8 +78,8 @@ const placeList = [
         "properties": {
             "name": "Guesthouse",
             "info": "The Institute has a spacious and comfortable Guest House on the campus. The Guest House includes 40 A/C executive rooms, 2 dining halls, and a reception hall. Furnished with A/C Suites, television with DTH connection, and WiFi connectivity.",
-            "url": "guesthouse.jpeg",
-            "address": "Beside U block",
+            "url": "guesthouse.jpg",
+            "address": "Near u block",
             "formUrl": "http://localhost/feedback_analysis/feedback_guesthouse.html"
         }
     },
@@ -92,7 +92,7 @@ const placeList = [
         "properties": {
             "name": "E Cell",
             "info": "The Entrepreneurship Development Cell was established at the institution to promote the concept of entrepreneurship among students.",
-            "url": "ecell.jpeg",
+            "url": "ecell.jpg",
             "address": "204 N block (OT)",
             "formUrl": "http://localhost/feedback_analysis/feedback_ecell.html"
         }
@@ -106,7 +106,7 @@ const placeList = [
         "properties": {
             "name": "Medical Room",
             "info": "VFSTR has a health centre on the campus. It caters to the primary and secondary health needs of all the students and staff, with two resident doctors and supporting paramedical staff.",
-            "url": "medical.jpeg",
+            "url": "medical facility.jpg",
             "address": "102 girls hostel (OT)",
             "formUrl": "http://localhost/feedback_analysis/feedback_medical_facility.html"
         }
@@ -120,7 +120,7 @@ const placeList = [
         "properties": {
             "name": "UCO Bank",
             "info": "The campus is supported by a branch of UCO Bank with all facilities like transfers out, withdrawals, debit use, PADs, cheques etc. UCO Bank and Punjab National Bank ATMs are available in the campus.",
-            "url": "uco.jpeg",
+            "url": "ucobank.jpg",
             "address": "Opposite Side of Main Gate",
             "formUrl": "http://localhost/feedback_analysis/feedback_bank.html"
         }
@@ -134,7 +134,7 @@ const placeList = [
         "properties": {
             "name": "Administrative Block",
             "info": "Administrative block of area 3257 Sq.m, houses Vice Chancellor Office, Examination Cell, Registrar Office, T&P Cell, Student Affairs office, Finance Section, IQAC Office, and some classrooms and laboratories.",
-            "url": "ablock.jpeg",
+            "url": "mainpagelogo.jpeg",
             "address": "Entrance of University",
             "formUrl": "http://localhost/feedback_analysis/feedback_administration_block.html"
         }
@@ -148,7 +148,7 @@ const placeList = [
         "properties": {
             "name": "IT Department",
             "info": "The Department of Information Technology (IT) is a hub of academic excellence and innovation, dedicated to advancing knowledge in the ever-evolving field of information technology.",
-            "url": "it.jpeg",
+            "url": "it dept.jpg",
             "address": "Near Tech Block",
             "formUrl": "http://localhost/feedback_analysis/feedback_IT.html"
         }
